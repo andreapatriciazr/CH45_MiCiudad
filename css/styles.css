@@ -75,15 +75,20 @@ body, p{
 }
 }
 
-  .cerro-de-la-campana, .parque-la-ruina{
+  .cerro-de-la-campana, .parque-la-ruina, .plaza-hidalgo, .plaza-zaragoza, .centro-ecologico,
+  .cerro-bachoco{
     display: flex;
     justify-content: space-around;
     padding-inline: 50px;
+    padding-block: 10px;
   }
 
-    #cerro-de-la-campana-img, #parque-la-ruina-img{
-      align-items: center;
-      padding-inline: 50px;
+    #cerro-de-la-campana-img, #parque-la-ruina-img, #plaza-hidalgo-img, #catedral-img, #centro-ecologico-img,
+    #cerro-bachoco-img{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 50px;
       img{
         width: 485px;
         height: 300px;
