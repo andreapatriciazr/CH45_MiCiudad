@@ -1,0 +1,76 @@
+body, p{
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    color: #B99470;
+    h1{
+        color: #B99470;
+        text-align: center;
+        padding-inline: 30px;
+        padding-block: 30px;
+    }
+    h2{
+        color: #558f62;
+    }
+}
+
+.header-container {
+    justify-content: center;
+    #hmo-banner {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 50px;
+      img{
+        width: 600px;
+        height: auto;
+      }
+    }
+  }  
+
+.history, .discover, .activities-and-places{
+  padding-inline: 50px;
+}
+
+.geographic-info{
+  display:flex;
+  justify-content: space-between;
+  padding-inline:50px;
+    #hmo-map{
+      padding-left: 50px;
+      align-items: center;
+      img{
+        width: 350px;
+        height: auto;
+      }
+    }
+}
+
+.actual-info{
+  display:flex;
+  justify-content: space-between;
+  padding-inline: 50px;
+  #actual-img{
+    padding-left: 50px;
+    padding-top: 20px;
+    img{
+      width: 350px;
+      height: auto;
+    }
+  }
+}
+
+.curious-facts{
+  padding-inline: 50px;
+.curious-facts-img{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+  row-gap: 15px;
+  padding-block: 10px;
+  img{
+    width: 485px;
+    height:300px;
+  }
+}
+}
