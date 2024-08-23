@@ -76,15 +76,15 @@ body, p{
 }
 
   .cerro-de-la-campana, .parque-la-ruina, .plaza-hidalgo, .plaza-zaragoza, .centro-ecologico,
-  .cerro-bachoco{
+  .cerro-bachoco, .parque-infantil, .parque-madero, .museo-de-arte-de-sonora, .econatura, .san-carlos, .kino{
     display: flex;
     justify-content: space-around;
     padding-inline: 50px;
     padding-block: 10px;
   }
 
-    #cerro-de-la-campana-img, #parque-la-ruina-img, #plaza-hidalgo-img, #catedral-img, #centro-ecologico-img,
-    #cerro-bachoco-img{
+    #cerro-de-la-campana-img, #parque-la-ruina-img, #plaza-hidalgo-img, #plaza-zaragoza-img, #centro-ecologico-img,
+    #cerro-bachoco-img, #parque-infantil-img, #parque-madero-img, #musas-img, #econatura-img, #san-carlos-img, #kino-img{
       display: flex;
       flex-direction: column;
       justify-content: center;
