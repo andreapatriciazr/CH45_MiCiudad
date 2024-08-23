@@ -9,7 +9,7 @@ body, p{
         padding-inline: 30px;
         padding-block: 30px;
     }
-    h2{
+    h2, h3{
         color: #558f62;
     }
 }
@@ -27,13 +27,13 @@ body, p{
     }
   }  
 
-.history, .discover, .activities-and-places{
+.history-info, .discover{
   padding-inline: 50px;
 }
 
-.geographic-info{
+.geography{
   display:flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-inline:50px;
     #hmo-map{
       padding-left: 50px;
@@ -45,9 +45,9 @@ body, p{
     }
 }
 
-.actual-info{
+.actual{
   display:flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-inline: 50px;
   #actual-img{
     padding-left: 50px;
@@ -74,3 +74,18 @@ body, p{
   }
 }
 }
+
+  .cerro-de-la-campana, .parque-la-ruina{
+    display: flex;
+    justify-content: space-around;
+    padding-inline: 50px;
+  }
+
+    #cerro-de-la-campana-img, #parque-la-ruina-img{
+      align-items: center;
+      padding-inline: 50px;
+      img{
+        width: 485px;
+        height: 300px;
+      }
+    }
