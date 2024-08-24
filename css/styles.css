@@ -3,8 +3,8 @@ body, p{
     font-family: 'Poppins', sans-serif;
     text-align: justify;
     color: #B99470;
-    h1{
-        color: #B99470;
+    h1, h4{
+        color: #885d34;
         text-align: center;
         padding-inline: 30px;
         padding-block: 30px;
@@ -14,7 +14,7 @@ body, p{
     }
 }
 
-.header-container {
+.header-container{
     justify-content: center;
     #hmo-banner {
       display: flex;
@@ -27,7 +27,7 @@ body, p{
     }
   }  
 
-.history-info, .discover{
+.history-info, .discover, .curious-facts{
   padding-inline: 50px;
 }
 
@@ -59,20 +59,18 @@ body, p{
   }
 }
 
-.curious-facts{
-  padding-inline: 50px;
-.curious-facts-img{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  flex-direction: row;
-  row-gap: 15px;
-  padding-block: 10px;
-  img{
-    width: 485px;
-    height:300px;
-  }
+.img-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(1200px, 1fr)); /* Ajuste automático de columnas */
+  gap: 20px; /* Espacio entre las filas imágenes */
+  padding-bottom: 50px;
 }
+
+.img-container img {
+  width: 100%; /* La imagen ocupa todo el ancho de la columna */
+  height: 300px; /* Altura automática para mantener la proporción */
+  object-fit: cover; /* Mantiene la proporción de la imagen y recorta si es necesario */
+  display: block; /* Elimina el espacio blanco debajo de la imagen */
 }
 
   .cerro-de-la-campana, .parque-la-ruina, .plaza-hidalgo, .plaza-zaragoza, .centro-ecologico,
@@ -90,14 +88,26 @@ body, p{
       justify-content: center;
       padding-left: 50px;
       img{
-        width: 485px;
+        width: 400px;
         height: 300px;
       }
     }
 
+
 .form{
-  padding-blocK: 50px;
-  padding-inline: 200px;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 500px;
+    padding-inline: 30px;
+    padding-block: 30px;
+    border: 1px solid #B99470;
+    .form-control{
+    height: 200px;
+    }
+  }
 }
