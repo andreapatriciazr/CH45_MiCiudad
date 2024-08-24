@@ -94,3 +94,10 @@ body, p{
         height: 300px;
       }
     }
+
+.form{
+  padding-blocK: 50px;
+  padding-inline: 200px;
+  display: flex;
+  flex-direction: column;
+}
