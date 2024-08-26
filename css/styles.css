@@ -24,14 +24,20 @@ body, p{
       }
 }
 
-.history-info, .discover, .curious-facts{
+.history, .discover{
   padding-inline: 50px;
 }
 
-.geography, .actual, .curious-facts{
+.geography, .actual{
     padding-inline: 50px;
     display: flex;
     justify-content: space-between;
+}
+
+.curious-facts{
+  padding-inline: 50px;
+  display:flex;
+  flex-direction: column;
 }
 
 #hmo-map, #actual-img{
@@ -78,8 +84,7 @@ body, p{
       }
     }
 
-
-.form{
+.container-form{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -95,4 +100,9 @@ body, p{
     height: 200px;
     }
   }
+}
+
+.container.form{
+  padding-block: 50px;
+  padding-inline: 200px;
 }
